@@ -1,2 +1,25 @@
-# Setup a GraphQL API with Apollo 2.0 Sequelize and Express.js
-## Instructions
+# RAM Api Poc SetUp
+
+## Feature
+
+- Mysql
+- Express
+- GraphQl 
+- GraphQl Modularization
+- GraphQl Documentation Generate
+
+### Installation Setup 
+```sh
+$ git clone http://jira.communitysystemsfoundation.org:7990/scm/unv/ram_poc.git
+$ yarn install
+```
+
+### GraphQl Document Generation Command 
+```sh
+$ yarn graphDoc -e [AppUrl] -o [Doc Directory]
+For Ex
+$ yarn graphdoc -e http://localhost:3000/graphql -o ./public/doc 
+```
+### App Url are 
+- App Access Point: http://localhost:3000/graphql
+- App Document Access Point: http://localhost:3000/doc/ 

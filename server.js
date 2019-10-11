@@ -14,7 +14,7 @@ const server = new ApolloServer({
 const app = express();
 server.applyMiddleware({ app });
 
-app.use(express.static("app/public"));
+app.use(express.static("public"));
 app.listen({ port }, () =>
     console.log(`🚀 Server ready at http://localhost:${port}${server.graphqlPath}`)
 );
