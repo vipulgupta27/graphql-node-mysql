@@ -14,6 +14,11 @@ $ git clone http://jira.communitysystemsfoundation.org:7990/scm/unv/ram_poc.git
 $ yarn install
 ```
 
+### Start the server 
+```sh
+$ yarn start
+```
+
 ### GraphQl Document Generation Command 
 ```sh
 $ yarn graphDoc -e [AppUrl] -o [Doc Directory]
